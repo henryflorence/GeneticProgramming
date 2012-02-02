@@ -10,6 +10,6 @@ I decided to implement a mark and sweep garbage collector on the nodes for the s
 Compilation
 ===========
 
-Options are set in the gp.h file as preproccessor macros.
+Options are set in the gp.h file as preproccessor macros, for speed and because command line parameter parsing is dull, ;)
 
 cc -o gpTest gp.c tree.c  mt/mt19937ar.c -lm
